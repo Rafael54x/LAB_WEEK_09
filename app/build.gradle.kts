@@ -59,6 +59,9 @@ dependencies {
     implementation("androidx.activity:activity-compose")
     implementation("androidx.navigation:navigation-compose:2.7.4")
 
+    // Moshi for JSON serialization
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.1")
+
 
     // The tutorial asks for this specific version
     implementation("androidx.compose.material3:material3:1.1.2")
