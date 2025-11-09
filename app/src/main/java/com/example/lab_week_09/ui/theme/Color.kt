@@ -2,10 +2,12 @@ package com.example.lab_week_09.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// A new blue-based color palette for the app
+val PrimaryBlue = Color(0xFF1976D2)      // A solid blue for primary elements
+val LightBlue = Color(0xFF64B5F6)       // A lighter blue for secondary elements
+val AccentPink = Color(0xFFE91E63)       // An accent color for contrast
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val TextPrimary = Color(0xFF212121)     // Dark text for light backgrounds
+val TextOnPrimary = Color(0xFFFFFFFF) // White text for dark backgrounds
+val BackgroundLight = Color(0xFFFFFFFF)
+val BackgroundDark = Color(0xFF121212)
